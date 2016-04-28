@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render text: "Welcome to the Railsgbeograd offical site! Hire you can lean about our work and working experience with people including children!"
+    render text: "Welcome to the Railsgbeograd offical site! Hire you can lean about our work and working experience with people!"
   end
 end
